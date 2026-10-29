@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Rush - Partida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Zona de Información -->
+        <div class="game-info">
+            <div><strong>Jugador:</strong> <span id="span-usuario"></span></div>
+            <div><strong>Nivel:</strong> <span id="span-nivel"></span></div>
+            <div><strong>Puntos:</strong> <span id="span-puntos">0</span></div>
+            <div><strong>Tiempo:</strong> <span id="span-tiempo">30</span>s</div>
+        </div>
+
+        <!-- Zona de Juego (Tablero Dinámico) -->
+        <div id="zona-juego" class="grid-board"></div>
+    </div>
+    <script src="js/juego.js"></script>
+</body>
+</html>

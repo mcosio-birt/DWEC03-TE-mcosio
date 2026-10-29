@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Rush - Bienvenida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a Bug Rush!</h1>
+        <div style="text-align: left; margin-bottom: 1.5rem;">
+            <h3>Instrucciones del Juego:</h3>
+            <p>• Pone a prueba tus reflejos aplastando los bugs del tablero.</p>
+            <p>• Cada <strong>bug aplastado suma 10 puntos</strong>.</p>
+            <p>• Pulsar en casilla vacía u objeto de distracción <strong>resta 5 puntos</strong>.</p>
+            <p>• Alcanza la puntuación objetivo de cada nivel antes de que el tiempo expire (30s).</p>
+        </div>
+
+        <div class="form-group">
+            <label for="nivel-select">Selecciona el nivel de dificultad:</label>
+            <select id="nivel-select">
+                <option value="principiante">Principiante (Tablero 3x3 Objetivo: 100 pts)</option>
+                <option value="intermedio" selected>Intermedio (Tablero 4x4 Objetivo: 150 pts)</option>
+                <option value="avanzado">Avanzado (Tablero 5x5 Objetivo: 200 pts)</option>
+            </select>
+        </div>
+
+        <button id="btn-iniciar" class="btn">Iniciar Juego</button>
+    </div>
+    <script src="js/bienvenida.js"></script>
+</body>
+</html>
